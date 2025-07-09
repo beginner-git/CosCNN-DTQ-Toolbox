@@ -1,0 +1,32 @@
+{
+    "input_length": 4096,
+    "num_classes": 3,
+    "filter_length": 5,
+    "num_filters_list": [
+        4,
+        8,
+        16,
+        32,
+        64
+    ],
+    "fold_number": 6,
+    "accuracy": 0.9333333333333333,
+    "confusion_matrix": [
+        [
+            9,
+            1,
+            0
+        ],
+        [
+            1,
+            9,
+            0
+        ],
+        [
+            0,
+            0,
+            10
+        ]
+    ],
+    "date_saved": "2025-07-09 23:54:42"
+}
