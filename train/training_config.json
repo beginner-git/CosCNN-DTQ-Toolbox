@@ -1,0 +1,27 @@
+{
+    "input_length": 4096,
+    "filter_length": 5,
+    "num_filters_list": [
+        4,
+        8,
+        16,
+        32,
+        64
+    ],
+    "max_epochs": 240,
+    "batch_size": 512,
+    "lr_start": 0.0002,
+    "lr_end": 2e-05,
+    "lr_drop_period": 50,
+    "num_folds": 10,
+    "model_type": "default",
+    "custom_model_path": null,
+    "perform_quantization": false,
+    "quantization_script_path": "../quantization/main.py",
+    "weight_decay_A": 0.001,
+    "weight_decay_w": 0.001,
+    "lr_factor_A": 1.0,
+    "lr_factor_w": 1.0,
+    "sig_data_path": "../data/sigData.json",
+    "label_data_path": "../data/labelData.json"
+}
